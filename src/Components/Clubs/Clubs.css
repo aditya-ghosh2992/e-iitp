@@ -1,0 +1,82 @@
+/* Clubs.css */
+
+.clubs-container {
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px; /* Adjust the gap between the cards as needed */
+    justify-content: center; /* Center the cards horizontally */
+}
+
+.club-card-container {
+    perspective: 1000px;
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+}
+
+.club-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.club-card.flipped {
+    transform: rotateY(180deg);
+}
+
+.club-card-front, .club-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+}
+
+.club-card-front {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.club-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.club-card-back {
+    background-color: rgba(82, 76, 76, 0.362); /* Adjust opacity as needed */
+    backdrop-filter: blur(8px);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.club-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.club-card-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.club-card-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

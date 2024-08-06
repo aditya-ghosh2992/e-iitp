@@ -1,0 +1,98 @@
+.events {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.slick-slider {
+    margin-bottom: 40px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+    margin: auto;
+}
+.slick-slide img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    box-shadow: 0 10px 20px rgba(16, 22, 195, 1.5); /* Add shadow for a modern effect */
+}
+
+
+
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    background: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    color: #185cda; /* Blue color */
+}
+
+.slick-prev:hover, .slick-next:hover {
+    transform: scale(1.1);
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: #185cda; /* Blue color */
+    content: '';
+    border: solid #185cda;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next {
+    right: -45px;
+}
+
+.slick-prev:before {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.slick-next:before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.slick-dots li button:before {
+    color: #261ebe;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #1a17d1;
+}
+
+.btn.dark-btn {
+    background-color: #185cda; /* Blue color */
+    color: #ffff0b; /* Yellow text */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px; /* Slightly more rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+
+.btn.dark-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(253, 249, 12); /* Subtle shadow effect */
+}
