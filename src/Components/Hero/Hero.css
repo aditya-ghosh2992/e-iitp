@@ -1,7 +1,7 @@
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/iitp-drone.jpg');
+    background: linear-gradient(rgba(11, 6, 43, 0.742), rgba(2, 0, 14, 0.792)), url('../../assets/iitp-drone.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -9,15 +9,43 @@
     align-items: center;
     justify-content: center;
 }
-.hero-text{
+
+.hero-text {
     text-align: center;
     max-width: 800px;
 }
-.hero-text h1{
-    font-size: 60px;
+
+.hero-text h1 {
+    font-size: 70px;
     font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    white-space: nowrap; /* Ensure no line breaks in the h1 */
 }
-.hero-text p{
+
+.typing {
+    display: inline-block; /* Ensure the typing effect is applied inline */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40, end);
+    /* Remove cursor effect by not including border-right */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Optional: If you want to keep some other styling without cursor */
+.typing.no-cursor {
+    border-right: none; /* Ensure cursor is hidden if you use this class */
+}
+
+.hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;

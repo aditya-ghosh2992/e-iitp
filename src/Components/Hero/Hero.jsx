@@ -3,12 +3,22 @@ import './Hero.css'
 import dark_arrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
+  const handleExploreMore = () => {
+    // Add your navigation or action logic here
+    console.log('Explore more clicked!');
+  };
+
   return (
-    <div className='hero container'>
+    <div className='hero'>
       <div className="hero-text">
-        <h1>Technology Students' Gymkhana IIT Patna Welcomes You!</h1>
-        <p>Join a vibrant community where innovation meets tradition. At Gymkhana IIT Patna, we nurture talent, inspire creativity, and cultivate leaders of tomorrow. Explore endless possibilities and transform your aspirations into reality.</p>
-        <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button>
+        <h1>
+          E-Gymkhana IIT Patna<br/>
+          <span className='typing'>Welcomes You!</span>
+        </h1>
+        <p>Get ready to ignite your student life with IIT Patna! <b>E-Gymkhana of IITP</b> is a vibrant student community that enhances the hybrid learning experience with thrilling events, innovative workshops, and endless opportunities for growth. Dive into a dynamic environment where learning and engagement come together, empowering you to excel and connect! <br />🌟 - E-Gymkhana is where your campus experience comes alive! 🌟</p>
+        <button className='btn' onClick={handleExploreMore}>
+          Explore more <img src={dark_arrow} alt="Arrow icon" />
+        </button>
       </div>
     </div>
   )
