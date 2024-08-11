@@ -13,6 +13,8 @@ const Clubs = () => {
     { id: 1, name: 'Gaming Club', description: 'Connect with fellow gamers, participate in tournaments, and explore the latest in gaming technology. From eSports to casual gaming, join us for a vibrant gaming community.', image: clubImage1 },
     { id: 2, name: 'Technical Club', description: 'Enhance your skills with workshops, hackathons, and innovative projects. Collaborate with peers and industry experts to stay ahead in the tech world.', image: clubImage2 },
     { id: 3, name: 'Cultural Club', description: 'Celebrate diversity through events, festivals, and performances. Join us to explore and appreciate various cultural traditions and heritages.', image: clubImage3 },
+    { id: 3, name: 'Cultural Club', description: 'Celebrate diversity through events, festivals, and performances. Join us to explore and appreciate various cultural traditions and heritages.', image: clubImage3 },
+
     // Add other clubs
   ];
 
