@@ -13,9 +13,9 @@ const Hero = () => {
       <div className="hero-text">
         <h1>
           E-Gymkhana IIT Patna<br/>
-          <span className='typing'>Welcomes You!</span>
+          <span className='typing'>Welcome's  You!</span>
         </h1>
-        <p>Get ready to ignite your student life with IIT Patna! <b>E-Gymkhana of IITP</b> is a vibrant student community that enhances the hybrid learning experience with thrilling events, innovative workshops, and endless opportunities for growth. Dive into a dynamic environment where learning and engagement come together, empowering you to excel and connect! <br />🌟 - E-Gymkhana is where your campus experience comes alive! 🌟</p>
+        <p>Get ready to ignite your student life with IIT Patna! <b>E-Gymkhana of IITP</b> is a vibrant student community that enhances the hybrid learning experience with thrilling events, innovative workshops, and endless opportunities for growth. <br />🌟 E-Gymkhana is where your campus experience comes alive! 🌟</p>
         <button className='btn' onClick={handleExploreMore}>
           Explore more <img src={dark_arrow} alt="Arrow icon" />
         </button>
