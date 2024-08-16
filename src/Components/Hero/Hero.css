@@ -8,11 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 15px; /* Slight padding for extra small screens */
 }
 
 .hero-text {
     text-align: center;
     max-width: 800px;
+    padding: 0 20px;
 }
 
 .hero-text h1 {
@@ -20,15 +22,14 @@
     font-weight: 600;
     color: #ffffff;
     margin: 0;
-    white-space: nowrap; /* Ensure no line breaks in the h1 */
+    white-space: nowrap;
 }
 
 .typing {
-    display: inline-block; /* Ensure the typing effect is applied inline */
+    display: inline-block;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 4s steps(40, end);
-    /* Remove cursor effect by not including border-right */
 }
 
 @keyframes typing {
@@ -40,13 +41,67 @@
     }
 }
 
-/* Optional: If you want to keep some other styling without cursor */
 .typing.no-cursor {
-    border-right: none; /* Ensure cursor is hidden if you use this class */
+    border-right: none;
 }
 
 .hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .hero-text h1 {
+        font-size: 60px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 50px;
+        white-space: normal; /* Allow line breaks on smaller screens */
+    }
+
+    .hero-text p {
+        max-width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 45px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        max-width: 100%; /* Utilize full width on very small screens */
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+        line-height: 1.3;
+    }
 }

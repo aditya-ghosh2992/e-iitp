@@ -11,12 +11,13 @@ const About = () => {
             <img src={play_icon} alt="" className='play-icon'/>
         </div>
         <div className="about-right">
-            <h3>ABOUT GYMKHANA</h3>
-            <h2>Tomorrow's Champions Hub</h2>
-            <p>Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Patna ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
+            <h3>ABOUT E-GYMKHANA</h3>
+            <h2>"Empower. Engage. Excel."</h2>
+            <br />
+            <p>Welcome to <b>E-Gymkhana at IIT Patna</b>—the official hybrid student community, where the future of learning comes to life. E-Gymkhana is a dynamic hub designed to elevate your hybrid learning experience, blending the best of virtual and on-campus opportunities.
             </p>
-            <p>The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM  which in English means "Excellence in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta facilis sapiente officiis ea repudiandae facere quidem ut laboriosam aperiam illo possimus voluptates aliquam sed veniam saepe corrupti, reiciendis illum!</p>
+            <p>Our mission is to empower every student with the tools, connections, and experiences needed to thrive in an ever-evolving academic landscape. Whether you're participating in cutting-edge workshops, joining thrilling events, or leading innovative projects, E-Gymkhana offers endless opportunities for growth and discovery.</p>
+            <p> Here, education goes beyond the online classes. We foster a culture of collaboration, creativity, and leadership, helping you build the skills and networks that will shape your future. At E-Gymkhana, you’re not just part of a community—you’re part of a movement towards excellence, innovation, and success at IIT Patna.</p>
 
         </div>
     </div>
