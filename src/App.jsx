@@ -10,6 +10,7 @@ import Video from './Components/video/VideoSection';
 import Register from './Components/Register/Register';
 import Gallery from './Components/Gallery/Gallery'; // Import Gallery component
 import Registrationform from './Components/Registrationform/RegistrationForm';
+
 const App = () => {
   return (
     <Router>

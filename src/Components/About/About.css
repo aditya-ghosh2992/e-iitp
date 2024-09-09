@@ -13,7 +13,8 @@
     flex-basis: 56%;
 }
 .about-img{
-    width: 100%;
+    width: 80%;
+    height: 50%;
     border-radius: 10px;
 }
 .play-icon{
