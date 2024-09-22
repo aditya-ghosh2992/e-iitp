@@ -66,24 +66,17 @@ const RegistrationForm = () => {
           <label>
             Course Category:
             <select value={courseCategory} onChange={e=>setCourseCategory(e.target.value)}>
-              <option>B-tech</option>
               <option>PG-Hybrid</option>
               <option>UG-Hybrid</option>
-              <option>Msc</option>
             </select>
           </label>
           <label>
             Course Name:
             <select value={courseName} onChange={e=>setCourseName(e.target.value)}>
-              <option>B-tech CSE</option>
-              <option>B-tech AI</option>
-              <option>B-tech ECE</option>
-              <option>B-tech EEE</option>
-              <option>B-tech CE</option>
               <option>BSc CSDA</option>
               <option>BBA</option>
-              <option>MSC</option>
-              <option>MBA</option>
+              <option>Mtech-Executive</option>
+              <option>MBA-Executive</option>
             </select>
           </label>
           <label>
