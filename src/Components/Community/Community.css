@@ -1,20 +1,25 @@
-.programs{
+.programs {
     margin: 80px auto;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap; 
 }
-.program img{
+
+.program img {
     width: 100%;
     border-radius: 10px;
     display: block;
 }
-.program{
+
+.program {
     flex-basis: 31%;
     position: relative;
+    margin-bottom: 20px; 
 }
-.caption{
+
+.caption {
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -32,12 +37,26 @@
     padding-top: 70%;
     transition: 0.4s;
 }
-.caption img{
+
+.caption img {
     width: 60px;
     margin-bottom: 10px;
 }
-.program:hover .caption{
+
+.program:hover .caption {
     opacity: 1;
     padding-top: 0;
 }
-/* ra */
+
+@media (max-width: 768px) {
+    .program {
+        flex-basis: 48%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .program {
+        flex-basis: 100%; 
+    }
+}
