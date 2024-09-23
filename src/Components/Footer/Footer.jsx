@@ -7,7 +7,7 @@ export default function Footer() {
     { title: "About IITP", href: "https://cet.iitp.ac.in/index.php/the-institute", target: "_blank" },
     { title: "IIT Patna Website", href: "https://cet.iitp.ac.in/", target: "_blank" },
     { title: "AD portal", href: "https://academics.iitp.ac.in/", target: "_blank" },
-    { title: "Moodle", description: "Hall Management Center", href: "https://cet.iitp.ac.in/moodle/", target: "_blank" },
+    { title: "Moodle", href: "https://cet.iitp.ac.in/moodle/", target: "_blank" },
     { title: "Library", href: "https://library.iitp.ac.in/", target: "_blank" },
     { title: "News", href: "https://cet.iitp.ac.in/index.php/announcements/news", target: "_blank" },
     { title: "Notice", href: "https://cet.iitp.ac.in/index.php/announcements/notice", target: "_blank" },
