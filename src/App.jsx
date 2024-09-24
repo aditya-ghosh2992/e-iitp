@@ -14,6 +14,7 @@ import GamingClub from './Components/Clubs/GamingClub';
 import TechnicalClub from './Components/Clubs/TechnicalClub';
 import CulturalClub from './Components/Clubs/CulturalClub';
 import EntrepeneurClub from './Components/Clubs/EntrepeneurClub';
+import Explore from './Components/Hero/Explore';
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/clubs/2" element={<TechnicalClub />} />
         <Route path="/clubs/3" element={<CulturalClub />} />
         <Route path="/clubs/4" element={<EntrepeneurClub />} />
+        <Route path="/explore" element={<Explore />} />
       </Routes>
     </Router>
   );
