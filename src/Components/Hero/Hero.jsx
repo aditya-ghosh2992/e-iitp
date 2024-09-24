@@ -1,11 +1,14 @@
 import React from 'react'
 import './Hero.css'
+import './Explore.css'; 
 import dark_arrow from '../../assets/dark-arrow.png'
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const handleExploreMore = () => {
-    // Add your navigation or action logic here
-    console.log('Explore more clicked!');
+    navigate('/explore');
   };
 
   return (
@@ -24,4 +27,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
